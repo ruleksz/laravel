@@ -1,0 +1,10 @@
+@extends('layouts.app')
+@section('content')
+    @include('components.carousel')
+    @include('components.appointment')
+    @include('components.service')
+    @include('components.priceing')
+    @include('components.blog')
+    @include('components.about')
+    @include('components.customers')
+@endsection
